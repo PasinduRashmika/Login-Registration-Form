@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" /> 
+    <title>Login And Registration form</title>
+</head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box" >
+                <div id="btn"></div>
+                <button class="toggle-btn" onclick="login()">Log In</button>
+                <button class="toggle-btn" onclick="register()">Register</button>
+            </div>
+            <div class="social-icons">
+                <img src="fb.png" >
+                <img src="tw.png" >
+                <img src="gp.png" >
+            </div>
+            <form action="" class="input-group" id="log-in">
+                <i class="fas fa-user"></i>
+                <input type="text" class="input-field" placeholder="Enter userName" required></span>
+                <i class="fas fa-key"></i>
+                <input type="password" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"><span class="remember">Remember Password</span>
+                <button type="submit" class="submit-btn">Log In</button>
+            </form>
+            <form action="" class="input-group" id="register">
+                <i class="fas fa-user"></i>
+                <input type="text" class="input-field" placeholder="Enter userName" required>
+                <i class="fas fa-envelope"></i>
+                <input type="text" class="input-field" placeholder="Enter Email" required>
+                <i class="fas fa-key"></i>
+                <input type="password" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"><span class="remember">I agree to the terms & conditions</span>
+                <button type="submit" class="submit-btn">Log In</button>
+            </form>
+        </div>
+        
+    </div>
+</body>
+</html>
